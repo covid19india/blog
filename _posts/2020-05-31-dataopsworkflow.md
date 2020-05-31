@@ -20,16 +20,16 @@ This, is an ideal scenario. More often than not, we end up with lots of "Unknown
 <b>Data updation</b> - the magixxx as we call it.
 
 So what if we do not get data with district splits but get that split later in some other bulletin down the line? We do row expansion. 
-</br>Row expansion means we take the total count that bulletin with no details had, make a -ve count entry equalling that value (for the same date), and then add district splits that total the actual count. Sounds confusing? It is. 
+</ br>Row expansion means we take the total count that bulletin with no details had, make a -ve count entry equalling that value (for the same date), and then add district splits that total the actual count. Sounds confusing? It is. 
 
-Consider the following example: </br>
+Consider the following example: </ br>
 Karnataka, 20, Recovered, , 30/05/2020 (Entries for a bulletin with no details given at 1:00pm)
-</br>.
-</br>.
-</br>.
-</br>Karnataka, 10, Bengaluru Urban, Recovered, 30/05/2020 (Entries for a detailed bulletin given at 4:00pm) 
-</br>Karnataka, 10, Gadag, Recovered, 30/05/2020
-</br>Karnataka, -20, , Recovered, 30/05/2020 (Note the empty district and the negative value).
+</ br>.
+</ br>.
+</ br>.
+</ br>Karnataka, 10, Bengaluru Urban, Recovered, 30/05/2020 (Entries for a detailed bulletin given at 4:00pm) 
+</ br>Karnataka, 10, Gadag, Recovered, 30/05/2020
+</ br>Karnataka, -20, , Recovered, 30/05/2020 (Note the empty district and the negative value).
 
 The above method ensures that the districts end up with proper counts for those days and the state count remains the same. It's a "jugaad" that works. These weren't easy for us to handle during the first two versions of the sheets. We did not have number of cases column then. That brings me to the next point. Challenges!
 
