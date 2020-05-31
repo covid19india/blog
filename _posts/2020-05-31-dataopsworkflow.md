@@ -20,7 +20,7 @@ This, is an ideal scenario. More often than not, we end up with lots of "Unknown
 <b>Data updation</b> - the magixxx as we call it.
 
 So what if we do not get data with district splits but get that split later in some other bulletin down the line? We do row expansion. 
-<br/>Row expansion means we take the total count that bulletin with no details had, make a -ve count entry equalling that value (for the same date), and then add district splits that total the actual count. Sounds confusing? It is. 
+<br/>Row expansion means we take the total count that the bulletin with no details had, make a -ve count entry equalling that value (for the same date), and then add district splits that total the actual count. Sounds confusing? It is. 
 
 Consider the following example: <br/>
 Karnataka, 20, Recovered, , 30/05/2020 (Entries for a bulletin with no details given at 1:00pm)
@@ -40,6 +40,8 @@ Data quality - this requires a post on its own. When I mentioned we have a numbe
 Formats - oh my! Where do I start? From the myriad of dashboards to the bulletins that are sent out as pics. From pdfs to tweets. This truely is a challenge. Imagine making entries for 75 districts for the three categories where the bulletin comes as a pic with district names in Hindi! Or those bulletins which do not provide confirmed cases so you have to calculate it from active and outcome counts! That's what we have to deal with.
 
 Discrepancies - State district numbers change. And change as in, they reconcile and reallocate patients from one district to another. This means at any point in time, we make entries, then sit and figure out when and where the district numbers started to mismatch! To add to this, now many have multitide of categories - migrants, other states, airports, domestic airports, railways, foreign returnees, deportees, Italians, BSF... There's also an "Unassigned to states" that has cropped up! Then there are the mismatches between state and district bulletins (possibly due to time of reporting). Sigh!
+
+Rush hours - The evenings nowadays are the rush hours. Not in terms of the traffic on roads (hopefully not), but in terms of the bulletins that come. A large number of states release bulletins at around the same time. This requires us to update each and every district that sees a change in number. India has 700+ districts. So even if 50% of these get updated, we need 350 districts to get updated. Sometimes these entries pile up and we end up updating late into the night (and we hear quite a lot about it on twitter :P).
 
 <b>Future</b> - hopefully a brighter one.
 
