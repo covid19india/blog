@@ -35,7 +35,7 @@ The above method ensures that the districts end up with proper counts for those 
 
 <b>Challenges</b> - stormy seas make skillful sailors (not an endorsement to go out in a storm).
 
-Data quality - this requires a post on its own. When I mentioned we have a number of cases column, it was introduced because of the lack of demographics data. Most of the rows we were entering had no information other than the district, state and the date. Made little sense for us to keep so many entries. We began to merge them into single district entries. There are only a handful of states that provide detailed information.
+Data quality - this requires a post on its own. I mentioned before that we have a "number of cases" column. That column was introduced because of the lack of demographics data. Most of the rows we were entering had no information other than the district, state and the date. Made little sense for us to keep so many entries. We began to merge them into single district entries. There are only a handful of states that provide detailed information.
 
 Formats - oh my! Where do I start? From the myriad of dashboards to the bulletins that are sent out as pics. From pdfs to tweets. This truely is a challenge. Imagine making entries for 75 districts for the three categories where the bulletin comes as a pic with district names in Hindi! Or those bulletins which do not provide confirmed cases so you have to calculate it from active and outcome counts! That's what we have to deal with.
 
