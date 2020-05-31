@@ -7,7 +7,7 @@ categories: update
 
 This is more like a reflective write than an informative one. An article to remind ourselves how we used to manage data ops, how we do now and how it might look in the future (who knows about that?!).
 
-Two months ago when we started there was so little structure and method in the way data was reported. We used to refer to multiple news sources, discard a few, accept a few, debate and then update! It was quite a chore. But given that the number of cases were limited, this was still manageable. We had enough bandwidth. Nowadays, it's so very different that a 2 months younger us would've found the 2 months older us quite mechanical and boring! But here goes the workflow anyway.
+Two months ago when we started there was so little structure and method in the way data was reported. We used to refer to multiple news sources, discard a few, accept a few, debate and then update! It was quite a chore. But given that the number of cases were limited, this was still manageable. We had enough bandwidth. Nowadays, it's so very different that a two months younger us would've found the two months older us quite mechanical and boring! But here goes the workflow anyway.
 
 <b>Sources</b> - it all starts with the source!
 
