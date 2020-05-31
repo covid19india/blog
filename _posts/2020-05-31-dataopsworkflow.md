@@ -49,12 +49,7 @@ From data operations point of view, we are trying to automate certain tasks that
 
 <b>Parting thoughts</b> (Ran out of witty stuff to write)
 
-The above write shows just a glimpse of what it is like. There are aspects that are totally kept out of it - the technical challenges to keep things running, the twitter following that keeps us on our toes, the constant battle to remember that these numbers are humans, the constant stream of information about the plight of different sections of the society... In short, this is a weird phase in our lives. Maybe writing these blogs will turn out to be a way to speak our hearts and minds out. Who knows! For now, this is where we are. 
+The above write shows just a glimpse of what it is like. There are aspects that are totally kept out of it - the technical challenges to keep things running, the auxillary teams that capture data related to testing et al, the analysis team that tries to make sense of the data, the twitter following that keeps us on our toes, the constant battle to remember that these numbers are humans, the constant stream of information about the plight of different sections of the society... In short, this is a weird phase in our lives. Maybe writing these blogs will turn out to be a way to speak our hearts and minds out. Who knows! For now, this is where we are. 
 
 Until we write next,<br/>
 Stay safe!
-
-
-
-
-
