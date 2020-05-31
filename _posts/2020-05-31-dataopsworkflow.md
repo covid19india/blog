@@ -43,7 +43,7 @@ Discrepancies - State district numbers change. And change as in, they reconcile 
 
 <b>Future</b> - hopefully a brighter one.
 
-From data operations point of view, we are trying to automate certain tasks that we volunteers were doing manually. This saves not just time, but also reduces the stress on the people involved. This might even free us up to focus on other things that can help - more time on analysis, representation of data and others. As the clichéd sentence goes - "we are living for today" as of now. Many asked us 2 months ago about how we would manage when the cases per day would be in thousands. We didn't have any answers then. Yet, somehow we have been able to. The same stands for the future - we don't know.
+From data operations point of view, we are trying to automate certain tasks that we volunteers were doing manually. This saves not just time, but also reduces the stress on the people involved. This might even free us up to focus on other things that can help - more time on analysis, representation of data and others. As the clichéd sentence goes - "we are living for today" as of now. Many asked us two months ago how we would manage when the cases per day would be in thousands. We didn't have any answers then. Yet, somehow we have been able to. The same stands for the future - we don't know.
 
 <b>Parting thoughts</b> (Ran out of witty stuff to write)
 
