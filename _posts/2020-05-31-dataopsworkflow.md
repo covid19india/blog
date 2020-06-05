@@ -26,6 +26,8 @@ Row expansion means we take the total count that the bulletin with no details ha
 Consider the following example: 
 
     Karnataka, 20, Recovered, , 30/05/2020 (Entries for a bulletin with no details given at 1:00pm)
+    ..
+    ..
     Karnataka, 10, Bengaluru Urban, Recovered, 30/05/2020 (Entries for a detailed bulletin given at 4:00pm) 
     Karnataka, 10, Gadag, Recovered, 30/05/2020
     Karnataka, -20, , Recovered, 30/05/2020 (Note the empty district and the negative value).
