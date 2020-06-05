@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   A space to express some thoughts and opinions.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.covid19india.org" # the base hostname & protocol for your site
-permalink: /:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/  # Make sure this format is followed everywhere. Comment section will break if we change this
 twitter_username: covid19indiaorg
 github_username:  covid19india
 
