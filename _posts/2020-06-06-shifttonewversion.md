@@ -13,11 +13,11 @@ categories: update
 
 All the information that is being collected by the volunteers by going through streams of official Twitter handles, state bulletins and dashboard is entered in to a Google Sheet which we call as _Raw_Data_.
 
-Many folks criticized that this is primitive. That we will soon face performance issues. One of our beloved developer created a full-blown Django app to enter the details too. However, the versatility of Google Sheet has no match! Collaborative editing and conflict management is something anybody can built overnight.
+Many folks criticized that this is primitive. That we will soon face performance issues. One of our beloved developer created a full-blown Django app to enter the details too. However, the versatility of Google Sheet has no match! Collaborative editing and conflict management is something that can't be built overnight.
 
-Volunteers have entered more than 100,000 rows of data since the inception of the site. Unsurprisingly, the sheet gets pretty heavy to load once it crosses 15,000 rows of data. Laptops start spewing fumes, people start shouting. We had to start using partitions. We could’ve just moved to a new sheet and then do all the calculations in the backend in a programming language of choice. But the sheet itself is a contraption that enable the volunteers to cross-check their entries while they are making the edits. Also, there is comfort in seeing the aggregated values in tabular form for quick checks.
+Volunteers have entered more than 100,000 rows of data since the inception of the site. Unsurprisingly, the sheet gets pretty heavy to load once it crosses 15,000 rows of data. Laptops start spewing fumes, people start shouting. We had to start using partitions. We could’ve just moved to a new sheet and then do all the calculations in the backend in a programming language of choice. But the sheet itself is a contraption that enables the volunteers to cross-check their entries while they are making the edits. Also, there is comfort in seeing the aggregated values in a tabular form for quick checks.
 
-This means that every 3 weeks, and now sadly, every 2 weeks - we have to move to a new version of the sheet. Below is the hustle to do the same.
+This means that every three weeks, and now sadly, every two weeks - we have to move to a new version of the sheet. Below is the hustle to do the same.
 
 You can stop reading this post here. Rest of the content is uninformative for the folks who haven’t seen the Patient Database sheet, but this is just a documentation for the volunteers :)
 
