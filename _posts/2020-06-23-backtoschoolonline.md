@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Classes have begun, classrooms are waiting"
+date:   2020-06-23
+categories: update
+---
+
+
 ## Classes have begun, classrooms are waiting
 ![Empty classroom](assets/images/emptyclass.jpg)  
  <sub><em>Photo by Ivan Aleksic on Unsplash</em></sub>
