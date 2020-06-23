@@ -8,6 +8,7 @@ categories: update
 
 ![Empty classroom](/assets/images/emptyclass.jpg)  
  <sub><em>Photo by Ivan Aleksic on Unsplash</em></sub>
+  <sub><em>QnA: Marianne Johannes</em></sub>
 
 The pandemic that changed everything left its mark on education when that hub of social contact, the classroom, fell prey to social distancing. Now, with the new academic year commencing for most schools and colleges in India, it's #BackToSchoolOnline. However, going online has not been a cakewalk for parents, teachers and students alike. Questions abound - you told us on [Twitter](https://twitter.com/covid19indiaorg/status/1268885077011902466) and we asked an expert educator to answer some of them. Hope they help. Feel free to write in with more questions or just tell us more about your education story in the time of the pandemic.   
 
