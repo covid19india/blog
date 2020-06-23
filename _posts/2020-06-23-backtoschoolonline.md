@@ -1,5 +1,5 @@
 ## Classes have begun, classrooms are waiting
-![Empty classroom](assets/images/emptyclass.jpg)
+![Empty classroom](assets/images/emptyclass.jpg)  
  <sub><em>Photo by Ivan Aleksic on Unsplash</em></sub>
 
 The pandemic that changed everything left its mark on education when that hub of social contact, the classroom, fell prey to social distancing. Now, with the new academic year commencing for most schools and colleges in India, it's #BackToSchoolOnline. However, going online has not been a cakewalk for parents, teachers and students alike. Questions abound - you asked and here, an experienced educator attempts to answer attempts to answer some of them. Hope they help. Feel free to write in with more questions.   
@@ -9,11 +9,11 @@ The pandemic that changed everything left its mark on education when that hub of
 - [Other questions](#others)
 
 #### Students
-##### Q. Firstly, the school is not having proper technical equipments like a good webcam, a good microphone, etc. The online classes are very less interactive to be honest. 
+##### Q.1 Firstly, the school is not having proper technical equipments like a good webcam, a good microphone, etc. The online classes are very less interactive to be honest. 
 
 The sudden onset of a viciously contagious disease was not something anyone in the world was prepared for. No one knew (or for that matter still knows) how it would (and will in the future) impact life in general and schools to be specific. So yes, many schools are unable to provide technically advanced and flawlessly interactive classes, due to the suddenness of the pandemic, financial constraints, network constraints, natural calamities like storms, cyclones etc. So most schools are doing the best that they can with whatever resources are available to them. At the end of the day, it all depends on how you look at things; your outlook determines whether your glass is half empty or half full. 
 
-##### Q. And the lovely thing about is school is that you can meet your friends and learn together. But online classes makes you feel a bit lonely.
+##### Q.2 And the lovely thing about is school is that you can meet your friends and learn together. But online classes makes you feel a bit lonely.
 Believe me, the teachers miss you more than you could ever imagine! Think of it this way, you are lonely (it’s sad) but you are choosing to be lonely so that your friends and you are safe. You, by attending online classes and not physically meeting your friends are no less than a superhero! You’re saving lives. And did you read about how the lockdown has been working wonders for the environment and the other creatures? You did it! Be proud. Talk to your friends on the phone, text them, you can even go old school and write to your heart’s content through an email.   
 
 ##### Q.3.  My online classes are for almost 3.5 hours. Even an average movie would be for 2.5 hours! Are students humans or robots?
