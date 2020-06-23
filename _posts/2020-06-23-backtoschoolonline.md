@@ -6,10 +6,10 @@ categories: update
 ---
 
 
-![Empty classroom](assets/images/emptyclass.jpg)  
+![Empty classroom](/assets/images/emptyclass.jpg)  
  <sub><em>Photo by Ivan Aleksic on Unsplash</em></sub>
 
-The pandemic that changed everything left its mark on education when that hub of social contact, the classroom, fell prey to social distancing. Now, with the new academic year commencing for most schools and colleges in India, it's #BackToSchoolOnline. However, going online has not been a cakewalk for parents, teachers and students alike. Questions abound - you asked and here, an experienced educator attempts to answer attempts to answer some of them. Hope they help. Feel free to write in with more questions.   
+The pandemic that changed everything left its mark on education when that hub of social contact, the classroom, fell prey to social distancing. Now, with the new academic year commencing for most schools and colleges in India, it's #BackToSchoolOnline. However, going online has not been a cakewalk for parents, teachers and students alike. Questions abound - you told us on [Twitter](https://twitter.com/covid19indiaorg/status/1268885077011902466) and we asked an experienced educator to answer some of them. Hope they help. Feel free to write in with more questions or just tell us more about your education story in the time of the pandemic.   
 
 - [For students](#students)
 - [For parents](#parents)
@@ -48,7 +48,7 @@ This is the age of digital literacy and your toddler being a digital native, wil
 Please use this opportunity to bond with your child over projects, art etc. Though independent work is important, what a child can learn through an experience is incomparable. Life is all about the journey, not the destination. Embrace this opportunity; you might not get a chance to do this when your child grows up!
 
 #### Q.3.  Biggest challenge is kids are getting addicted to tab/mobile phones ...
-I like the fact that you’ve used the word “challenge” and not “problem”. Yes, it is a challenge, but it is one that we can overcome. It is but natural for a child of this digital age to be attracted to such devices, we as parents have to see to it that a balance is maintained. Use this media to develop off line hobbies such as reading, dancing, gardening, pets, painting, craft, no fire cooking etc. Once, the child gets invested in these activities, they will naturally spend a substantial time off- screen, which is what we are aiming for. You may also allot house duties for them to “earn” online time, like dusting a room, sanitizing groceries, pealing vegetables, shelling peas, making their bed, wiping dishes, segregating garbage etc.   
+I like the fact that you’ve used the word “challenge” and not “problem”. Yes, it is a challenge, but it is one that we can overcome. It is but natural for a child of this digital age to be attracted to such devices, we as parents have to see to it that a balance is maintained. Use this media to develop offline hobbies such as reading, dancing, gardening, pets, painting, craft, no fire cooking etc. Once, the child gets invested in these activities, they will naturally spend a substantial time off- screen, which is what we are aiming for. You may also allot house duties for them to “earn” online time, like dusting a room, sanitizing groceries, peeling vegetables, shelling peas, making their bed, wiping dishes, segregating garbage etc.   
 
 ### Others:
 #### Q.1.  There will be sudden power cut every now and then, so WiFi will be gone and mobile data connection is generally weak. The app/website which the school uses is also an issue
@@ -57,6 +57,7 @@ The first thing to do in any sudden technical issue/ glitch is to not worry. A c
 ##### Q.2.  Everyone does not have a computer
 Unfortunately, everyone does not have a computer, mobile, internet connectivity and many other things that make life easy. There is unequal distribution in society, so what can be done? Well, if you have the means, please help out by sharing your resources, collecting funds and procuring a simple smart phone with data for deserving students, teaching a child while maintaining social distance. The government/ educational bodies have come up with wonderful initiatives such as classes on local DD channels, please find out about these and spread the word. Donate your old text books to students of the next batch. Revise old lessons; improve your writing skills by editing and re-editing your compositions.    The gadget is there to aid us not to incapacitate us. All the best!
 
-### Marianne Johannes  
+
+#### Marianne Johannes  
 Headmistress  
 Kolkata  
