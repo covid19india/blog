@@ -9,7 +9,7 @@ categories: update
 ![Empty classroom](/assets/images/emptyclass.jpg)  
  <sub><em>Photo by Ivan Aleksic on Unsplash</em></sub>
 
-The pandemic that changed everything left its mark on education when that hub of social contact, the classroom, fell prey to social distancing. Now, with the new academic year commencing for most schools and colleges in India, it's #BackToSchoolOnline. However, going online has not been a cakewalk for parents, teachers and students alike. Questions abound - you told us on [Twitter](https://twitter.com/covid19indiaorg/status/1268885077011902466) and we asked an experienced educator to answer some of them. Hope they help. Feel free to write in with more questions or just tell us more about your education story in the time of the pandemic.   
+The pandemic that changed everything left its mark on education when that hub of social contact, the classroom, fell prey to social distancing. Now, with the new academic year commencing for most schools and colleges in India, it's #BackToSchoolOnline. However, going online has not been a cakewalk for parents, teachers and students alike. Questions abound - you told us on [Twitter](https://twitter.com/covid19indiaorg/status/1268885077011902466) and we asked an expert educator to answer some of them. Hope they help. Feel free to write in with more questions or just tell us more about your education story in the time of the pandemic.   
 
 - [For students](#students)
 - [For parents](#parents)
@@ -57,6 +57,7 @@ The first thing to do in any sudden technical issue/ glitch is to not worry. A c
 #### Q.2.  Everyone does not have a computer
 Unfortunately, everyone does not have a computer, mobile, internet connectivity and many other things that make life easy. There is unequal distribution in society, so what can be done? Well, if you have the means, please help out by sharing your resources, collecting funds and procuring a simple smart phone with data for deserving students, teaching a child while maintaining social distance. The government/ educational bodies have come up with wonderful initiatives such as classes on local DD channels, please find out about these and spread the word. Donate your old text books to students of the next batch. Revise old lessons; improve your writing skills by editing and re-editing your compositions.    The gadget is there to aid us not to incapacitate us. All the best!
 
-Courtesy:
-#### Marianne Johannes, Headmistress  
+Courtesy:  
+#### Marianne Johannes  
+Headmistress  
 Kolkata  
