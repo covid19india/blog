@@ -26,12 +26,12 @@ Before I move further, [the maps](https://github.com/covid19india/covid19india-r
 
 So now, lets talk of the backend server. This is where traditionally the business logic sits. Usually this might have a server like nodejs, apache et al which would take requests and then fetch data from a data source and give back the response. The logic in this layer is used to modify data (validity checks, joins, translations and other operations). This layer might also contain a data server which is usually a database (mysql, oracle, redis and many more). This is how a traditional backend would look. Just having a look at this system tells us that this would mean having a machine(s) where we could start our application server and optionally a database server. Once we enter this realm we get into load balancing, DR (Disaster recovery), HA (High Availability) and other technical requirements that has to be managed either by the owner of the manchine(s) or can be dealt with using AWS, Azure kind of services. Either way, it's a heavy and possibly costly operation. Hence, not viable for a revenue free volunteer run initiative.
 
-The need for backend server is solved using GitHub pages (cons and cavets to follow). [This](https://github.com/covid19india/api/tree/gh-pages) is our API repository (theoretically, our backend server). Technically, we could've kept it as a normal GitHub repository and managed, but that would mean that we wouldn't be able to publish the page for others as a webpage. This repository holds json files. These json files get used in the javascript code of the website to get data that needs to be shown on the page. 
+The need for backend server is solved using GitHub pages (cons and cavets to follow). [This](https://github.com/covid19india/api/tree/gh-pages) is our API repository (theoretically, our backend server). Technically, we could've kept it as a normal GitHub repository and managed, but that would mean that we wouldn't be able to publish the page for others as a webpage. This repository holds json files. These json files get used in the javascript code of the website to show data on the web pages.  
 
 Now who populates these json files?   
 Enter [GitHub actions!](https://github.com/features/actions) A detailed description of GitHub actions is out of scope of this article. So let me try to simplify it to our usecase and explain what we do. 
 
-Every 10 minutes, we invoke a set of actions.
+Every 10 minutes, we invoke an action. This carries out the following set of operations:
 - First we fetch data from a set of google sheets.
 - Then we prepare json files which correspond to these sheets. Also some other json files that we were historically using in the website.
 - Next we read these json files and prepare additional json files which are to be consumed by the website.
