@@ -54,7 +54,10 @@
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
-        background-color: $background-color;
+        background-color: $light-bg;
+        .dark-theme & {
+            background-color: $dark-bg;
+        }
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
@@ -292,6 +295,26 @@
 }
 
 #icon-dark{
+    visibility: hidden;
+    display: none;
+    .dark-theme & {
+        visibility: visible;
+        display: inline;
+    }
+}
+
+//menu icon
+#menu-icon-light{
+    vertical-align:middle;
+    display: inline;
+    .dark-theme & {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+#menu-icon-dark{
+    vertical-align: middle;
     visibility: hidden;
     display: none;
     .dark-theme & {
