@@ -1,6 +1,8 @@
 /**
  * Site header
  */
+
+
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
@@ -17,23 +19,29 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-
+    color: $light-txt;
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $light-txt;
+    }
+    .dark-theme & {
+        color: $dark-txt;
     }
 }
 
 .site-nav {
     float: right;
     line-height: 56px;
-
+    background-color: transparent;
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: $light-txt;
+        .dark-theme & {
+            color: $dark-link;
+        }
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -164,14 +172,23 @@
  * Page content
  */
 .page-content {
+    .dark-theme & {
+        color: $dark-txt;
+    }
     padding: $spacing-unit 0;
 }
 
 .page-heading {
+    .dark-theme & {
+        color: $dark-txt;
+    }
     font-size: 20px;
 }
 
 .post-list {
+    .dark-theme & {
+        color: $dark-txt;
+    }
     margin-left: 0;
     list-style: none;
 
@@ -183,9 +200,15 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    .dark-theme & {
+        color: $dark-txt;
+    }
 }
 
 .post-link {
+    .dark-theme & {
+        color: $dark-link;
+    }
     display: block;
     font-size: 24px;
 }
@@ -201,7 +224,9 @@
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
-
+    .dark-theme & {
+        color: $dark-txt;
+    }
     @include media-query($on-laptop) {
         font-size: 36px;
     }
@@ -209,7 +234,9 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
-
+    .dark-theme & {
+        color: $dark-txt;
+    }
     h2 {
         font-size: 32px;
 
@@ -235,6 +262,9 @@
     }
 }
 .PageNavigation {
+    .dark-theme & {
+        color: $dark-txt;
+    }
     font-size: 14px;
     display: block;
     width: auto;
@@ -248,4 +278,90 @@
 }
 .PageNavigation .next {
     text-align: right;
+}
+
+//dark theme
+
+//icon 
+#icon-light {
+    display: inline;
+    .dark-theme & {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+#icon-dark{
+    visibility: hidden;
+    display: none;
+    .dark-theme & {
+        visibility: visible;
+        display: inline;
+    }
+}
+
+//buttons
+#moon{
+    vertical-align:middle;
+    display: inline;
+    .dark-theme & {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+#sun{
+    vertical-align: middle;
+    visibility: hidden;
+    display: none;
+    .dark-theme & {
+        visibility: visible;
+        display: inline;
+    }
+}
+
+#change-theme-btn {
+    font: inherit;
+    padding: 0.1em 0.1em;
+    border: 0;
+    outline: 0;
+    color: $light-bg;
+    cursor: pointer;
+    transition: all 0.15s ease-out;
+    position: relative;
+    background-color: transparent;
+    overflow: hidden;
+
+    &::before, &::after {
+        content: '';
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $light-bg;
+        transition: all 0.15s ease-out;
+    }
+
+    &::after {
+        background-color: $dark-bg;
+        left: 100%;
+    }
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    .dark-theme & {
+        color: $light-bg;
+
+        &::before {
+            left: -100%;
+        }
+
+        &::after {
+            left: 0;
+        }
+    }
 }
