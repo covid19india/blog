@@ -7,7 +7,7 @@ categories: update
 
 It's been a while since we wrote. And this one is an important update. So please read on in case you've been following our work.
 
-We started on 14th March 2020. Then there were a few handful of cases and the reporting was hapazard to say the least. Over time, the state/central agencies got more organised in their reporting, and so did our systems. We've gone through almost a year now (a month and a half shy of a full year as I write). For all these days we've been curating and updating the data on the website and API without a single day being missed. We've seen the data being used across research papers and organisations. We've seen the value of the data we have been collecting. We had hoped to make a small difference but the result has been bigger than what anyone of us had imagined.
+We started on 14th March 2020. Then there were a few handful of cases and the reporting was hapazard to say the least. Over time, the state/central agencies got more organised in their reporting, and so did our systems. We've gone through almost a year now (a month and a half shy of a full year as we write). For all these days we've been curating and updating the data on the website and API without a single day being missed. We've seen the data being used across research papers and organisations. We've seen the value of the data we have been collecting. We had hoped to make a small difference but the result has been bigger than what anyone of us had imagined.
 
 To give you an overview of the work - we have 700+ districts in India. With four data points (confirmed, recovered, deceased, tested) collected per district there are potentially 2800 data points per day. Yes, a lot of districts/states do not give enough details, so we have lesser data to collect, but still the data is vast. The reporting mechanisms by the state/central authorities does not make things easier either. Each state releases its bulletin separately in a different format, so there is no central reporting to pull from. Automation has reduced a lot of the manual effort that was required before. We have resorted to heavy use of OCR to extract data. Even then the last mile delivery (the final entry) is done by volunteers to avoid any glaring mistakes.
 
@@ -25,7 +25,7 @@ These two decisions are driven based on necessity and reality. The necessity of 
 
 Over the last year, a lot of you folks have helped us in different ways. We sincerely appreciate all the help! Many have volunteered with us, many have cheered us on, many have shown us the value of the data we have collected, many have kept us on our toes by reporting issues. But most of all, all of you have made us believe that honest collaborations can lead to great results. You folks have brought a smile on our faces many a times. Thank you for that :) 
 
-We will continue to remain open and transparent about our thought processes and decisions with all of you folks. But eventually this intiative will stop. That's a reality we cannot deny. Until that time, we will continue to take one day at a time. 
+We will continue to remain open and transparent about our thought processes and decisions with all of you folks. But eventually this intiative will stop. That's a reality we cannot deny. Until then, we will continue to take one day at a time. 
 
 Until we write again,  
 Stay safe!  
