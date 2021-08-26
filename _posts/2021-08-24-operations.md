@@ -18,7 +18,9 @@ We follow the below steps to achieve the above mentioned requirements:
 3. Our data store is based out of Google Sheets that sync to a [Github repository using Github Actions](https://github.com/covid19india/data/blob/60af6e683fd22ce2f0435b7a129260aa944ea369/.github/workflows/javascript.yml#L43).
 4. The Github repository is what acts like our [API endpoint]((https://github.com/covid19india/data/blob/main/src/parser_v4.py)) and a place from which our website pulls the data.
 
-**This method is cost effective (zero cost since everything we use is a free platform). However, there are much simpler ways of doing this. Please consider using the sources of data we have and building your own tracker using these sources.**
+Most of this is [documented here.](https://blog.covid19india.org/2020/09/04/architecture/)
+
+***While this method is cost effective (zero cost since everything we use is a free platform), there are much simpler ways of doing this. Please consider using the sources of data we have and building your own tracker using these sources. All that is needed is a data store and a website to expose the data.***
 
 
 ## Detailed Explanation
