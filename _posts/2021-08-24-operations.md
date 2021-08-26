@@ -24,7 +24,7 @@ We follow the below steps to achieve the above mentioned requirements:
 ## Detailed Explanation
 # Sources for states
 
-Please refer this link for all the sources we use for data. This contains the list of sources per state and also sources we track for vaccination (cowin API).
+Please refer [this link](https://blog.covid19india.org/2020/06/15/hornbill/) for all the sources we use for data. This contains the list of sources per state and also sources we track for vaccination (cowin API).
 
 # Mode of data input
 Data operations team is responsible for updating data the data onto the Google sheets which in turn acts as the entry point for all data that we expose. Different datasets have different sheets associated with it. [This document](https://docs.google.com/spreadsheets/d/1foGJ_FwHoDnVUI7VqN-YrwrPo0A4pfLV8jFYxn4rLaw/edit#gid=0) is one of our versions that has multiple sheets corresponding to different datasets.  
