@@ -48,6 +48,5 @@ Below are some of the major sheets used and how they relate to the overall struc
 - These files in turn are consumed by a [json parser](https://github.com/covid19india/data/blob/main/src/parser_v4.py) that gives us the data in a format that we need for the website.
 - Some of the sheets are directly synced and kept as csv files. These are directly exposed as csv endpoints.
 
-# 
 
 
