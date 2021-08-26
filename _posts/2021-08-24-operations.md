@@ -40,16 +40,22 @@ The standard format for the cases sheet is shown below:
 Most of the states have a pretty regular bulletin that they share on their twitter handles/websites. These come as pictures/pdfs or dashboards. We use the following ways to convert these to standardised bulletins:
 1. Pictures - we use a mix of opencv + google vision api to extract the text from images.
 2. Pdfs - [camelot](https://camelot-py.readthedocs.io/en/master/) and [pdftotext](https://pypi.org/project/pdftotext/) is what we use to read pdfs and convert them
-3. Dashboards - we use [beautifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) to read a dashboards. Some of the dashboards have api endpoints that we use directly (example cowin api).
+3. Dashboards - we use [beautifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) to read a dashboards. Some of the dashboards have api endpoints that we use directly (example cowin api).  
 
-These are used in conjuncture with the covid19india.org endpoints to get the delta values for a given day. Most of these are added as a part of [a telegram bot](https://github.com/covid19india/automation-bot) automation so as to allow volunteers to get these values to be added on Google Sheets. 
+These are used in conjuncture with the covid19india.org endpoints to get the delta values for a given day. Most of these are added as a part of [a telegram bot](https://github.com/covid19india/automation-bot) automation so as to allow volunteers to get these values to be added on Google Sheets. A detailed technical explanation is [given here](https://github.com/bee-rickey/webScraper).
 
 # Sheets used
 Below are some of the major sheets used and how they relate to the overall structure of data:  
 - Raw_data: This is a sheet that has the basic district level Confirmed, Recovered, Deceased and Migrated delta per day details. This is versioned after around 20k rows to prevent it from becoming very slow.
 - Statewise: This is a sheet that is an aggregated value per state. This is pulled from raw_data sheet using formulae.
 - Districtwise: This is a sheet that has district level aggregates (cumulative and delta).
+- Auxillary_data_statewise: This sheet contains the testing numbers per state as given by state bulletins.
+- Tested_Numbers_ICMR_Data: This contains testing numbers as given by ICMR bulletin at India level (no state splits).
+- Statewise_vaccination_Cowin: This contains statewise vaccination numbers pulled from Cowin api.
+- Districtwise_vaccination: This contains districtwise vaccination numbers pulled from Cowin api.
+- New_MOHFW_Sheet: This contains per state per day vaccination details as put out by MOHFW bulletin.
 - Statewise/districtwise_Previous_Partition: These sheets allow us to keep a track of the values when the new version of raw sheet was created. More of this is [documented here](https://blog.covid19india.org/2020/06/07/shifttonewversion/).
+
 
 # Data sync
 - The data from the Google Sheets is directly pulled to a [csv file](https://github.com/covid19india/data/blob/main/src/sheets-to-csv.js). 
