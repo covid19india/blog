@@ -36,6 +36,14 @@ The standard format for the cases sheet is shown below:
 ```(cumulative numbers for a category for a district in today's bulletin - cumulative numbers for a category for the district taken from covid19india.org website)```
 - For vaccine and testing data, the data is pulled from the sources (bulletins, cowin API) and is directly entered to a different Google sheet. There's no other calculation required for it.
 
+# Converting bulletins to standardised format
+Most of the states have a pretty regular bulletin that they share on their twitter handles/websites. These come as pictures/pdfs or dashboards. We use the following ways to convert these to standardised bulletins:
+1. Pictures - we use a mix of opencv + google vision api to extract the text from images.
+2. Pdfs - [camelot](https://camelot-py.readthedocs.io/en/master/) and [pdftotext](https://pypi.org/project/pdftotext/) is what we use to read pdfs and convert them
+3. Dashboards - we use [beautifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) to read a dashboards. Some of the dashboards have api endpoints that we use directly (example cowin api).
+
+These are used in conjuncture with the covid19india.org endpoints to get the delta values for a given day. Most of these are added as a part of [a telegram bot](https://github.com/covid19india/automation-bot) automation so as to allow volunteers to get these values to be added on Google Sheets. 
+
 # Sheets used
 Below are some of the major sheets used and how they relate to the overall structure of data:  
 - Raw_data: This is a sheet that has the basic district level Confirmed, Recovered, Deceased and Migrated delta per day details. This is versioned after around 20k rows to prevent it from becoming very slow.
