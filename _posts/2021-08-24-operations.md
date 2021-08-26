@@ -13,7 +13,7 @@ In order for a covid aggregator website/API to work, following are the steps tha
 4. Website/API needs to pull data from this store.
 
 We follow the below steps to achieve the above mentioned requirements:
-1. We track all state bulletins using a telegram bot that tracks twitter/website updates for each state and posts in a telegram channel. This is used by volunteers when they want to update data.
+1. We track all state bulletins using a [telegram bot](https://github.com/covid19india/monitor-bot) that tracks twitter/website updates for each state and posts in a telegram channel. This is used by volunteers when they want to update data.
 2. The cases format for each district is standardised as delta numbers for that day per category (Confirmed/Recovered/Deceased/Migrated).
 3. Our data store is based out of Google Sheets that sync to a [Github repository using Github Actions](https://github.com/covid19india/data/blob/60af6e683fd22ce2f0435b7a129260aa944ea369/.github/workflows/javascript.yml#L43).
 4. The Github repository is what acts like our [API endpoint]((https://github.com/covid19india/data/blob/main/src/parser_v4.py)) and a place from which our website pulls the data.
@@ -26,7 +26,7 @@ We follow the below steps to achieve the above mentioned requirements:
 
 Please refer [this link](https://blog.covid19india.org/2020/06/15/hornbill/) for all the sources we use for data. This contains the list of sources per state and also sources we track for vaccination (cowin API).
 
-# Mode of data input
+# Inputting data points
 Data operations team is responsible for updating data the data onto the Google sheets which in turn acts as the entry point for all the data we expose. Different datasets have different sheets associated with it. [This document](https://docs.google.com/spreadsheets/d/1foGJ_FwHoDnVUI7VqN-YrwrPo0A4pfLV8jFYxn4rLaw/edit#gid=0) is one of our versions that has multiple sheets corresponding to different datasets.  
 The standard format for the cases sheet is shown below:
 ![Google Sheet](/assets/images/raw.png)
