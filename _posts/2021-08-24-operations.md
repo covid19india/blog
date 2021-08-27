@@ -65,7 +65,7 @@ Below are some of the major sheets used and how they relate to the overall struc
 - Some of the sheets are directly synced and kept as csv files. These are directly exposed as csv endpoints.
 
 ### A bit about the bots
-We use Telegram bots for some of our work. Listed below are a couple of heavily used bots:
+We use Telegram bots for some of our work. These run out of Github actions. Listed below are a couple of heavily used bots:
 1. [Monitor bot](https://github.com/covid19india/monitor-bot) - This telegram bot is used to monitor the state sources and provide udpates as and when the sources get updated. This could be a tweet from a twitter handle we are tracking, a webpage that gives bulletins or a dashboard that shows data. The data from the bot is posted on a Telegram channel where volunteers look through when they need to update some data onto the sheets.
 2. [Automation bot](https://github.com/covid19india/automation-bot) - This bot is used for converting bulletins into the standardised format we use. This bot has options to read images/urls. The below screenshots provide a few examples of how the bot works. More about the code can be found [here](https://github.com/bee-rickey/webScraper).
 
