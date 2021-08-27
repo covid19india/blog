@@ -79,7 +79,6 @@ Bot output after it parses the image (in this case Andhra Pradesh):
 ![Automation Bot Output](/assets/images/bot-output.png)
 
 
-
 ## Alternative solutions 
 1. Data store - the reason to use Google Sheets + Github Repository was to allow anyone with/without technical knowledge to be able to enter into a sheet. Github allowed us to reduce overhead of maintaining a server that hosted a database. Alternative to this can be a traditional database with a frontend form. This reduces the overall orechestration required between google sheets and repository. Also, the data isn't huge enough to cause maintanence issues for a database.
 2. Frontend - as of now, the site is hosted on Github Pages. These are static pages that are served by Github servers free of cost. Alternative to this is to host your own webserver. This allows for you to have a proper GET/POST request/response cycle allowing for a better user experience (things like optimisations in terms of data fetch, feedback et al can be implemented using this approach). The downside to a webserver would be scaling up for larger number of hits. 
@@ -87,7 +86,8 @@ Bot output after it parses the image (in this case Andhra Pradesh):
 4. Data formats - Although we followed a delta format for district entries, it is not mandated to have the same if you are building your own website. The formats we've adopted have evolved over time to cater to the needs we have on the frontend.
 
 
-
 Please note that the problem is that of data aggregation. The solution we built was built around a community of volunteers coming together to make things work. We were very mindful of relying only on free to use platforms to avoid any kind of financial/infrastructural dependencies. This need not be the template on which some of you might want to build. There are different solutions that can solve the same problem. 
 
 
+Fare thee well,
+covid19india.org 
