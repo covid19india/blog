@@ -16,7 +16,7 @@ We follow the below steps to achieve the above mentioned requirements:
 1. We track all state bulletins using a [telegram bot](https://github.com/covid19india/monitor-bot) that tracks twitter/website updates for each state and posts in a telegram channel. This is used by volunteers when they want to update data.
 2. The cases format for each district is standardised as delta numbers for that day per category (Confirmed/Recovered/Deceased/Migrated).
 3. Our data store is based out of Google Sheets that sync to a [Github repository using Github Actions](https://github.com/covid19india/data/blob/60af6e683fd22ce2f0435b7a129260aa944ea369/.github/workflows/javascript.yml#L43).
-4. The Github repository is what acts like our [API endpoint]((https://github.com/covid19india/data/blob/main/src/parser_v4.py)) and a place from which our website pulls the data.
+4. The Github repository is what acts like our [API endpoint](https://github.com/covid19india/data/blob/main/src/parser_v4.py) and a place from which our website pulls the data.
 
 Most of this is [documented here.](https://blog.covid19india.org/2020/09/04/architecture/)
 
@@ -89,5 +89,5 @@ Bot output after it parses the image (in this case Andhra Pradesh):
 Please note that the problem is that of data aggregation. The solution we built was built around a community of volunteers coming together to make things work. We were very mindful of relying only on free to use platforms to avoid any kind of financial/infrastructural dependencies. This need not be the template on which some of you might want to build. There are different solutions that can solve the same problem. 
 
 
-Fare thee well,
+Fare thee well,  
 covid19india.org 
