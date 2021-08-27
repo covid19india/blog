@@ -67,10 +67,14 @@ Below are some of the major sheets used and how they relate to the overall struc
 ### A bit about the bots
 We use Telegram bots for some of our work. Listed below are a couple of heavily used bots:
 1. [Monitor bot](https://github.com/covid19india/monitor-bot) - This telegram bot is used to monitor the state sources and provide udpates as and when the source gets updated. This could be a tweet from a twitter handle we are tracking, a webpage that gives bulletins or a dashboard that shows data. The data from the bot is posted on a Telegram channel where volunteers look through when they need to update some data onto the sheets.
-2. [Automation bot](https://github.com/covid19india/automation-bot) - This bot is used for converting bulletins into the standardised format we use. This bot has options to read images/urls. The below screenshots provide a few examples of how the bot works. More about the code can be found [here](https://github.com/bee-rickey/webScraper)
+2. [Automation bot](https://github.com/covid19india/automation-bot) - This bot is used for converting bulletins into the standardised format we use. This bot has options to read images/urls. The below screenshots provide a few examples of how the bot works. More about the code can be found [here](https://github.com/bee-rickey/webScraper).
+
+Bot menu
 ![Automation Bot Example](/assets/images/bot-help.png)
+
 Bot reading an image and parsing it (in this case Andhra Pradesh):
 ![Automation Bot Image Parsing](/assets/images/bot-ap.png)
+
 Bot output after it parses the image (in this case Andhra Pradesh):
 ![Automation Bot Output](/assets/images/bot-output.png)
 
@@ -85,3 +89,5 @@ Bot output after it parses the image (in this case Andhra Pradesh):
 
 
 Please note that the problem is that of data aggregation. The solution we built was built around a community of volunteers coming together to make things work. We were very mindful of relying only on free to use platforms to avoid any kind of financial/infrastructural dependencies. This need not be the template on which some of you might want to build. There are different solutions that can solve the same problem. 
+
+
