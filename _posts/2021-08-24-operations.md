@@ -88,6 +88,8 @@ Bot output after it parses the image (in this case Andhra Pradesh):
 
 Please note that the problem is that of data aggregation. The solution we built was built around a community of volunteers coming together to make things work. We were very mindful of relying only on free to use platforms to avoid any kind of financial/infrastructural dependencies. This need not be the template on which some of you might want to build. There are different solutions that can solve the same problem. 
 
+Also, once we cease the operations, all of our data will continue to be available under data.covid19india.org. 
+
 
 Fare thee well,  
 covid19india.org 
