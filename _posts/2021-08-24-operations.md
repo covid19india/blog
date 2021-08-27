@@ -55,7 +55,7 @@ Below are some of the major sheets used and how they relate to the overall struc
 - Tested_Numbers_ICMR_Data: This contains testing numbers as given by ICMR bulletin at India level (no state splits).
 - Statewise_vaccination_Cowin: This contains statewise vaccination numbers pulled from Cowin api.
 - Districtwise_vaccination: This contains districtwise vaccination numbers pulled from Cowin api.
-- New_MOHFW_Sheet: This contains per state per day vaccination details as put out by MOHFW bulletin.
+- New_MOHFW_Sheet: This contains per state per day vaccination and testing details as put out by MOHFW bulletin.
 - Statewise/districtwise_Previous_Partition: These sheets allow us to keep a track of the values when the new version of raw sheet was created. More of this is [documented here](https://blog.covid19india.org/2020/06/07/shifttonewversion/).
 
 
